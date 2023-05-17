@@ -10,7 +10,7 @@ const Nadvar = () => {
             </div>
             <div className={styles.box}>
                 <Link   href={'/'} className={styles.link}><li><ul>Inicio</ul></li></Link>
-                <Link href={'/Servicios'} className={styles.link}><li><ul>Servicios</ul></li></Link>
+                <Link href={'/servicio'} className={styles.link}><li><ul>Servicios</ul></li></Link>
                 <Link href={'/Contacto'} className={styles.link}><li><ul>Contacto</ul></li></Link>
                 {/* <Link href={'/'} className={styles.link}><li><ul>Nosotros</ul></li></Link> */}
             </div>
