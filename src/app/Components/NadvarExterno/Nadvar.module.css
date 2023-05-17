@@ -1,0 +1,42 @@
+.menu{
+    width: 100%;
+    height: 5vh;
+    /* background: red; */
+    display: flex;
+    position: absolute;
+}
+
+
+.title{
+    width: 50%;
+}
+
+.title h1 {
+    color: white;
+    margin: 0;
+    padding-left: 2%;
+}
+
+
+.box{
+    width: 50%;
+    display: flex;
+    justify-content:flex-end ;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 20%;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.link ul {
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

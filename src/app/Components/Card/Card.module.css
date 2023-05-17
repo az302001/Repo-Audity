@@ -1,0 +1,38 @@
+
+.data {
+    background: rgb(189, 187, 187);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 24vh;
+    overflow: hidden;
+    
+}
+
+.data h1 {
+    font-size: 18px;
+}
+
+.data p {
+    font-size: 15px;
+    padding: 1%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    margin-top: -4%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+  }
+
+  .button:hover{
+    transform: translateY(-10px);
+    
+  }
