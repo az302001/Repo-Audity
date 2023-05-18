@@ -1,4 +1,4 @@
-.menu{
+.menu {
     width: 100%;
     height: 5vh;
     /* background: red; */
@@ -7,7 +7,7 @@
 }
 
 
-.title{
+.title {
     width: 50%;
 }
 
@@ -18,20 +18,20 @@
 }
 
 
-.box{
+.box {
     width: 50%;
     display: flex;
-    justify-content:flex-end ;
+    justify-content: flex-end;
 }
 
-.link{
+.link {
     color: white;
     text-decoration: none;
     list-style: none;
     width: 20%;
     display: flex;
     align-items: center;
- 
+
 }
 
 .link ul {
@@ -39,4 +39,170 @@
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+}
+
+
+.menuResponsive {
+    width: 95%;
+    height: 100vh;
+    display: none;
+    background: linear-gradient(35deg,
+            hsl(0deg 0% 1%) 0%,
+            hsl(250deg 74% 2%) 8%,
+            hsl(250deg 86% 3%) 17%,
+            hsl(251deg 90% 4%) 25%,
+            hsl(252deg 93% 5%) 33%,
+            hsl(253deg 94% 5%) 42%,
+            hsl(253deg 96% 6%) 50%,
+            hsl(252deg 96% 7%) 58%,
+            hsl(251deg 97% 7%) 67%,
+            hsl(249deg 97% 8%) 75%,
+            hsl(246deg 97% 9%) 83%,
+            hsl(243deg 96% 9%) 92%,
+            hsl(240deg 96% 10%) 100%);
+    color: white;
+}
+
+.visible {
+    display: block;
+    width: 100%;
+}
+
+.btnMenu {
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .title{
+        width: 60%;
+    }
+
+    .box {
+        width: 40%;
+    }
+
+    .link {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .menu {
+        display: none;
+    }
+
+
+    .btnMenu {
+        display: block;
+        width: 100%;
+        height: 5vh;
+        background: rgb(14 14 14);
+    }
+
+    .iconMenu {
+        width: 8vw;
+        height: 100%;
+    }
+
+    /* ***** para el menu responsive ******* */
+
+    .titleR {
+        text-align: center;
+    }
+
+    .titleR h1 {
+        margin: 0;
+        padding-top: 4%;
+        font-size: 32px;
+    }
+
+    .boxR {
+        height: 100%;
+        color: white;
+    }
+
+    .linkR {
+        text-decoration: none;
+        list-style: none;
+        font-size: 25px;
+        display: flex;
+        width: 100%;
+        background: transparent;
+    }
+
+    .linkR li {
+        width: 100%;
+        color: white;
+        height: 10vh;
+        padding-top: 4%;
+        background: none;
+    }
+
+    .linkR li:hover {
+        background: red;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+    .menu {
+        display: none;
+    }
+
+
+    .btnMenu {
+        display: block;
+        width: 100%;
+        height: 5vh;
+        background: rgb(14 14 14);
+    }
+
+    .iconMenu {
+        width: 8vw;
+        height: 100%;
+    }
+
+    /* ***** para el menu responsive ******* */
+
+    .titleR {
+        text-align: center;
+    }
+
+    .titleR h1 {
+        margin: 0;
+        padding-top: 4%;
+        font-size: 23px;
+    }
+
+    .boxR {
+        height: 100%;
+        color: white;
+    }
+
+    .linkR {
+        text-decoration: none;
+        list-style: none;
+        font-size: 18px;
+        display: flex;
+        width: 100%;
+        background: transparent;
+    }
+
+    .linkR li {
+        width: 100%;
+        color: white;
+        height: 10vh;
+        padding-top: 4%;
+        background: none;
+    }
+
+    .linkR li:hover {
+        background: red;
+    }
+
+
 }

@@ -6,3 +6,16 @@
     justify-content: center;
     gap: 3vh;
 }
+
+@media screen and (max-width:780px){
+    
+}
+
+/* ********* para mobile ******** */
+
+@media screen and (max-width: 380px){
+    .container{
+        width: auto;
+        height: auto;
+    }
+}

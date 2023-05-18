@@ -18,7 +18,7 @@ import img3 from "../../../public/Assets/audi05.jpg";
 import img4 from "../../../public/Assets/audi06.jpg";
 import img5 from "../../../public/Assets/audi07.jpg";
 
-// import "./styles.css";
+
 
 // import required modules
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
@@ -27,7 +27,7 @@ import Image from "next/image";
 
 const Page = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <NadInterno />
       <div className={styles.data}>
         <div className={styles.carousel}>

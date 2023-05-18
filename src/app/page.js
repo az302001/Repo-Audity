@@ -10,7 +10,7 @@ export default function Home() {
       <Nadvar />
       <div className={styles.content}>
         <div className={styles.img}>
-          <Image src={img} className={styles.imagen} />
+          <Image src={img} className={styles.imagen} alt={img}/>
         </div>
         <div className={styles.title}>
           <span>

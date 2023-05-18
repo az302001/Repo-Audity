@@ -4,6 +4,8 @@ import NadInterno from "@/app/Components/NadvarInterno/NadInterno";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import styles from "./detail.module.css";
+import Footer from "@/app/Components/Footer/Footer";
+import Link from "next/link";
 const Servicio = ({ params }) => {
   const [data, setData] = useState({});
   useEffect(() => {
@@ -13,17 +15,23 @@ const Servicio = ({ params }) => {
     setData(info);
   }, [params]);
   return (
-    <div>
+    <div className={styles.container}>
       <NadInterno />
-      <div>
+      <div className={styles.content}>
         <div className={styles.boximg}>
-          <Image />
+          <Image src={data.imagen} className={styles.img} />
         </div>
-        <div>
-          <h1>{data.nombre}</h1>
+        <div className={styles.boxdata}>
+          <h1>Servicio de {data.nombre}</h1>
           <p>{data.detail}</p>
+          <div className={styles.boxButton}>
+            <Link href={`https://api.whatsapp.com/send?phone=TUNUMERO&text=Hola,%20me%20gustaría%20adquirir%20su%20servicio%20de%20${data.nombre}`}target="_blank" className={styles.button}>
+              <span className={styles.text}>¡Contáctame en WhatsApp!</span>
+            </Link>
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

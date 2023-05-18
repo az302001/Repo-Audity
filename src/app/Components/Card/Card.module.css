@@ -36,3 +36,51 @@
     transform: translateY(-10px);
     
   }
+
+
+  /* ********* para tablets ************* */
+ @media screen and (max-width: 900px){
+    .data p{
+        font-size: 16.5px;
+    }
+ }
+
+  @media screen and (max-width: 780px) {
+    .data p{
+        font-size: 15px;
+    }
+  }
+
+
+  /* ******* para mobile ******** */
+
+@media screen and (max-width:500px) {
+    .data  {
+        font-size: 15px;
+        height: 32vh;
+    }
+
+    .data p {
+        font-size: 17.5px;
+        padding: 1%;
+    }
+    .button {
+        font-size: 15px;
+    }
+}
+
+
+  @media screen and (max-width: 380px) {
+    .data  {
+        font-size: 15px;
+        height: 32vh;
+    }
+
+    .data p {
+        font-size: 12px;
+        padding: 1%;
+    }
+    .button {
+        font-size: 10px;
+    }
+  }
