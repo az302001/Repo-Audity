@@ -93,7 +93,7 @@ export default function Contacto() {
                 <label >Telefono</label>
               </div>
               <div className={styles.group}>
-                <input placeholder="" type="email" id="email" name="email" required="campo obligatorio" value={formulario.correo} onChange={handleChange} name='correo'/>
+                <input placeholder="" type="email" id="email" name="correo" required="campo obligatorio" value={formulario.correo} onChange={handleChange} />
                 <label >Email</label>
               </div>
               <div className={styles.group}>
