@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import img from '../../public/Assets/auditoria 03.jpg'
+import img from '../../public/Assets/auditoria03.jpg'
 import Nadvar from './Components/NadvarExterno/Nadvar'
 
 
