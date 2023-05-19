@@ -19,7 +19,7 @@ const Servicio = ({ params }) => {
       <NadInterno />
       <div className={styles.content}>
         <div className={styles.boximg}>
-          <Image src={data.imagen} className={styles.img} />
+          <Image src={data.imagen} className={styles.img} alt={data.imagen}/>
         </div>
         <div className={styles.boxdata}>
           <h1>Servicio de {data.nombre}</h1>

@@ -47,19 +47,19 @@ const Page = () => {
             loop={true}
           >
             <SwiperSlide>
-              <Image src={img1} className={styles.img} />
+              <Image src={img1} className={styles.img}  alt={img1}/>
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={img2} className={styles.img} />
+              <Image src={img2} className={styles.img} alt={img2}/>
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={img3} className={styles.img} />
+              <Image src={img3} className={styles.img} alt={img3}/>
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={img4} className={styles.img} />
+              <Image src={img4} className={styles.img} alt={img4}/>
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={img5} className={styles.img} />
+              <Image src={img5} className={styles.img} alt={img5}/>
             </SwiperSlide>
           </Swiper>
         </div>
