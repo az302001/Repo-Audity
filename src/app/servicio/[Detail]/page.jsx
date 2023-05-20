@@ -25,7 +25,7 @@ const Servicio = ({ params }) => {
           <h1>Servicio de {data.nombre}</h1>
           <p>{data.detail}</p>
           <div className={styles.boxButton}>
-            <Link href={`https://api.whatsapp.com/send?phone=TUNUMERO&text=Hola,%20me%20gustaría%20adquirir%20su%20servicio%20de%20${data.nombre}`}target="_blank" className={styles.button}>
+            <Link href={`https://api.whatsapp.com/send?phone=952167090&text=Hola,%20me%20gustaría%20adquirir%20su%20servicio%20de%20${data.nombre}`}target="_blank" className={styles.button}>
               <span className={styles.text}>¡Contáctame en WhatsApp!</span>
             </Link>
           </div>
